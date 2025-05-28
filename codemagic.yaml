@@ -1,0 +1,15 @@
+workflows:
+  ios-workflow:
+    name: Build iOS .ipa
+    environment:
+      vars:
+        XCODE_WORKSPACE: "ios/Runner.xcworkspace"
+        XCODE_SCHEME: "Runner"
+    scripts:
+      - name: Build Flutter iOS
+        script: |
+          flutter build ios --release --no-codesign
+          xcodebuild -workspace ios/Runner.xcworkspace -scheme Runner -sdk iphoneos -configuration Release archive -archivePath $HOME/build/Runner.xcarchive
+          xcodebuild -exportArchive -archivePath $HOME/build/Runner.xcarchive -exportPath $HOME/build/Runner -exportOptionsPlist ios/ExportOptions.plist
+    artifacts:
+      - build/Runner/*.ipa
