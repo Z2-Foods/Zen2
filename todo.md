@@ -1,0 +1,26 @@
+- [X] Set up initial Flutter project structure
+- [X] Install Flutter SDK and prerequisites
+- [ ] Add Firebase Core dependency to `pubspec.yaml` (Skipped for now)
+- [ ] Add Firebase Auth dependency to `pubspec.yaml` (Skipped for now)
+- [ ] Configure Firebase for Android (Requires firebase project setup - Placeholder/Ask User) (Skipped for now)
+- [ ] Configure Firebase for iOS (Requires firebase project setup - Placeholder/Ask User) (Skipped for now)
+- [ ] Initialize Firebase in `main.dart` (Skipped for now)
+- [X] Create basic Login screen UI (`login_screen.dart`)
+- [X] Create basic Registration screen UI (Email/Password) (`registration_screen.dart`)
+- [ ] Implement Email/Password Registration logic using Firebase Auth (Skipped for now)
+- [ ] Implement Email/Password Login logic using Firebase Auth (Skipped for now)
+- [ ] Implement Password Recovery logic using Firebase Auth (Skipped for now)
+- [X] Set up basic navigation between Login/Registration/Home screens (Partially done)
+- [X] Create User Profile screen UI (`profile_screen.dart`)
+- [X] Implement Profile Creation/Editing logic (saving to Firestore/RTDB - Requires DB setup) (Placeholder logic added)
+- [X] Implement Goal Selection UI/Logic (Part of Profile screen, UI added)
+- [ ] Implement Training Plan Selection UI
+- [X] Implement Activity Logging UI (Manual) (`activity_log_screen.dart`)
+- [ ] Implement Performance Test UI (Manual Log)
+- [ ] Implement basic Performance Visualization UI (Graphs/Reports)
+- [ ] Implement Performance Comparison UI
+- [ ] Refine UI/UX based on Material Design/Cupertino guidelines
+- [ ] Add Non-Functional Requirement checks (Performance, Security, etc.)
+- [ ] Complete detailed project plan document (Ongoing in background)
+- [ ] Convert final project plan to PDF
+
